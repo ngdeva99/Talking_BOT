@@ -1,0 +1,62 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up","wassup"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 18 years old!", "18 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Devanathan.", "I'm Devanathan!", "I'm Devanathan aka Tech With Deva."],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
+         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
+         "context_set": ""
+        },
+
+        {"tag": "headache",
+         "patterns": ["my head is paining", "my head is aching", "i feel fizzy", "what to do if head is paining","medicine for headache"],
+         "responses": ["What are the symptoms?", "Oh! sorry to hear that. Any symptoms?","could you be more specific?","any other indications?"],
+         "context_set": ""
+        },
+
+        
+
+        {"tag": "headsymp",
+         "patterns": ["continuous vomiting", "pain", "vertigo", "food intake","sleep","stress","migraine","stroke"],
+         "responses": ["have you taken any medications?", "any other remedies taken"],
+         "context_set": ""
+        },
+
+
+        {"tag": "headsympt",
+         "patterns": ["no remedies", "Not yet","yes","yeah","Consumed water","drank water","ate food","paracetamol and crocin","did nothing","went to medical shop"],
+         "responses": ["Dont worry bhaiya!! If medication taken: make sure you have had enough sleep or eat properly.     i'll suggest some if you have not taken: take paracetamol or crocin if you feel feverish. If you feel dizzy or tired take enough water and some sleep."],
+         "context_set": ""
+        },
+
+
+        {"tag": "medi-no-suggestion",
+         "patterns": ["sure suggest", "ok please suggest","fine suggest","okay suggest","cool"],
+         "responses": ["", "Oh! sorry to hear that. Any symptoms?","could you be more specific?","any other indications?"],
+         "context_set": ""
+        },
+
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 7am-4pm Monday-Friday!"],
+         "context_set": ""
+        }
+   ]
+}
